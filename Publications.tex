@@ -1,0 +1,488 @@
+% -*- coding: cp866u -*- &lhplain -translate-file=1251-866.tcx Denis
+% Resume Created: 16 Feb 2011 Last Modified: 26.03.2012
+
+\documentclass[11pt,oneside]{article} \usepackage{geometry}
+% \usepackage[russian,ukrainian]{babel}
+\usepackage[T1]{fontenc}
+% \usepackage[cp866u]{inputenc}
+\usepackage{graphicx} \usepackage{tabularx} \pagestyle{empty}
+\geometry{letterpaper,tmargin=1in,bmargin=1in,lmargin=1in,rmargin=1in,headheight=0in,headsep=0in,footskip=.3in}
+
+\setlength{\parindent}{0in} \setlength{\parskip}{0in}
+\setlength{\itemsep}{0in} \setlength{\topsep}{0in}
+\setlength{\tabcolsep}{0in}
+
+% Name and contact information
+\newcommand{\name}{Denis Morozov} \newcommand{\addr}{Kharkiv road,
+  17/r.203, Kiev } \newcommand{\phone}{(063) 539-70-65}
+\newcommand{\email}{denis.morozov178@gmail.com}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% New commands and environments
+
+% This defines how the name looks
+\newcommand{\bigname}[1]{
+  \begin{center}\fontfamily{phv}\selectfont\Huge\scshape#1\end{center}
+  }
+
+% A ressection is a main section (<H1>Section</H1>)
+\newenvironment{ressection}[1]{ \vspace{4pt}
+  {\fontfamily{phv}\selectfont\Large#1}
+    \begin{itemize}
+      \vspace{3pt} }{
+    \end{itemize}
+  }
+
+% A resitem is a simple list element in a ressection (first level)
+\newcommand{\resitem}[1]{ \vspace{-4pt}
+  \item \begin{flushleft} #1 \end{flushleft}
+}
+
+% A ressubitem is a simple list element in anything but a ressection
+% (second level)
+\newcommand{\ressubitem}[1]{ \vspace{-1pt}
+  \item \begin{flushleft} #1 \end{flushleft} }
+
+% A resbigitem is a complex list element for stuff like jobs and
+% education: Arg 1: Name of company or university Arg 2: Location Arg
+% 3: Title and/or date range
+\newcommand{\resbigitem}[3]{ \vspace{-5pt}
+  \item
+    \textbf{#1}---#2 \\
+    \textit{#3} }
+
+% This is a list that comes with a resbigitem
+\newenvironment{ressubsec}[3]{ \resbigitem{#1}{#2}{#3} \vspace{-2pt}
+    \begin{itemize}
+    }{
+    \end{itemize}
+  }
+
+% This is a simple sublist
+\newenvironment{reslist}[1]{ \resitem{\textbf{#1}} \vspace{-5pt}
+    \begin{itemize}
+    }{
+    \end{itemize}
+}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Now for the actual document:
+
+\begin{document}
+\font\mfont=manfnt at 14pt
+\font\mft=lhr12
+
+\fontfamily{ppl} \selectfont
+
+% % Name with horizontal rule
+% \bigname{\name}
+
+% \vspace{-8pt} \rule{\textwidth}{1pt}
+
+% \vspace{-1pt} {\small\itshape \addr \hfill \phone; \email}
+
+% \vspace{8 pt}
+
+
+
+
+% %%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+
+
+% % \begin{figure}[htbp]
+% %   \includegraphics[width=50mm]{3x+2.eps}
+% % \end{figure}
+% % $$
+% % \lefteqn{\overbrace{ \phantom{1+2+3}}}
+% % 1+\lefteqn{\underbrace{\phantom{2+3+4}}}2+3+\lefteqn{\overbrace{\phantom{4+5+6}}}4+5+6+7
+% % $$
+% % $$
+% % \lefteqn{\overbrace{ \phantom{1+2+3}}} 1+\underbrace{2+3+4} $$
+
+% \begin{figure}[h]
+%   % \centering
+%   %\includegraphics[width = 3cm]{Lico3.jpg}
+% \end{figure}
+% \newlength{\MyLen} \newlength{\MyParagraph} \MyLen = \parindent
+% \parindent = 4cm
+% \setlength{\MyParagraph}{\textwidth }
+% \addtolength{\MyParagraph}{-\parindent}
+% \raisebox{2.7cm}[0pt][0pt]{\parbox{\MyParagraph}{ {\large \bf
+%       Objective} \begin{itemize}
+
+% \item {\bf Mathematician}
+
+%  Math support for development process
+% \end{itemize}
+% \parindent = 5cm  }}
+% \parindent = \MyLen
+
+% \MyLen = \parindent
+
+% \parindent = \MyLen
+
+
+% % \begin{ressection}{Summary }
+
+% %\begin{ressubsec}{Taras Shevchenko National
+%  %University of Kyiv}{Kyiv, Ukraine}{Department
+%  % of Algebra, Mechanics and Mathematics Faculty}
+%  % \ressubitem{Summarize your background and most valuable attributes.
+%  % Using concrete examples, explain to potential employers precisely
+%  % what you will be able to do for them. Describe your unique gifts
+%  % and strengths. Write this section last, as it is often the most
+%  % difficult to write.}
+% % \end{ressubsec}
+% %
+% %
+% %
+%   %\end{ressection}
+
+
+
+
+
+
+
+% \begin{ressection}{Education}
+%   \begin{ressubsec}{National University "Kyiv-Mohila Academy"}{Kyiv,
+%       Ukraine}{institution of doctoral c\kern -.1em andid\kern -.05em
+%       a\kern .1em cy}
+%    \ressubitem{Projected Graduation Date: November, 2013}
+%    \ressubitem{Degree expected: Doctor of mathematical sciences}
+%     \end{ressubsec}
+
+
+%     \begin{ressubsec}{National University "Kyiv-Mohila Academy"}{Kyiv,
+%         Ukraine}{post-gradu\kern -.1em ate courses}
+%    \ressubitem{Graduation Date: November, 2003} \ressubitem{Degree:
+%      Candidate of Sciences in Physics and Mathematics (Equivalent of
+%      PhD)}
+% \end{ressubsec}
+
+%     \begin{ressubsec}{Taras Shevchenko National University of
+%         Kyiv}{Kyiv, Ukraine}{Department of Algebra ( Mechanics and
+%         Mathematics Faculty)}
+%    \ressubitem{Graduation Date: May, 2001} \ressubitem{Degree:
+%      Specialist (Equivalent of Masters)}
+% \end{ressubsec}
+
+
+% \end{ressection}
+
+% %%%%%%%%%%%%%%%%%%%%%%%%
+% \begin{ressection}{Experience}
+
+%  \begin{ressubsec}{Samsung Ukraine R\&D}{Kiev,
+%       Ukraine}{Lead Software Engineer C++: 2011--present}
+
+
+%         % \ressubitem{ Developed Discrete Fourier transform algorithm based on finite algebraic fields }
+%         % \ressubitem{ Math support for development of syntaxical and lexical analyzer for .dxf format files }
+%         % \ressubitem{ Project Lead of homomorphic cryptographical project } 
+%         \ressubitem{ Math support for development process}
+%         \ressubitem{ Math lectures for engineers of R\&D Center } 
+
+%       \end{ressubsec}
+
+%   \begin{ressubsec}{National University "Kyiv-Mohila Academy",
+%       Computer Science Faculty, Department of Mathematics}{Kiev,
+%       Ukraine}{Lecturer: September 2003--present}
+%       \ressubitem{ Courses for Computer Science Faculty: Theory of
+%         Algorithms, Mathematical Logics, Systems of Information
+%         Encoding, Algebra and Number Theory, Linear Algebra and
+%         Analytic Geometry, Discrete Mathematics, Additional Chapters
+%         of Discrete Mathematics }
+
+%         \ressubitem{ Courses for Faculty of Economics: Probability
+%           Theory, Mathematical Analysis } \ressubitem{Students'
+%           supervisor of term papers} \ressubitem{Write workbooks and
+%           science papers}
+%       \end{ressubsec}
+
+%    % \newpage
+
+% \begin{ressubsec}{National University of National Economy }{Kiev,
+%     Ukraine}{Student-lecturer: September 2000--May 2001}
+
+%       \ressubitem{ Course of Linear Algebra for Faculty of Economics }
+
+
+
+%       \end{ressubsec}
+
+%     \begin{ressubsec}{Polytechnical Lyceum}{Izmail,
+%         Ukraine}{Student-lecturer: January 1997}
+
+%         \ressubitem{ Course of Complex Numbers for Physics and mathematics branch}
+
+
+
+%       \end{ressubsec}
+
+
+%   \end{ressection}
+
+
+% %%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+% \begin{ressection}{Skills}
+
+%   %\resitem{\textbf{Operating Systems:} Linux, Windows }
+
+
+%     \begin{reslist}{ Languages:}
+      
+%       \ressubitem{C++ - 5 years experience( 2 years in industrial development)}
+% \ressubitem{ Ocaml, F\# - use for writing prototypes}
+
+%  \ressubitem{Knowledge of:  Prolog, Assembler, Perl, Forth, \LaTeX,
+%    plain\kern -.15em\hbox{\TeX}, PostScript, MetaPost, {\mfont
+%      \char'150\char'151\char'152\char'153\char'154\char'155\char'156\char'152}, Emacs Lisp,
+%    VIM scripts}
+
+%  % \ressubitem{Start study, interested in }
+
+% \end{reslist}
+
+% \begin{reslist}{Tools and Systems:}
+%  \ressubitem{Version control systems: git, SVN}
+%   \ressubitem{Others: Flex, Bison, Emacs, Vim, Matlab, Maple}
+
+% \end{reslist}
+
+
+% \end{ressection}
+
+% \begin{ressection}{Published works}
+% \end{ressection}
+
+\begin{ressection}{Abstracts}
+
+\resitem{ Morozov Denis, Some properties of non-differentiable groups' automatons
+// The X International Algebraic Conference in Ukraine: Abstr.
+August 20-27, 2015, Odessa, Ukraine, http://iacuodessa.com/index.php }
+
+\resitem{ Morozov Denis,  Recursive criterion of conjugation of finite-state
+binary tree's automorphisms
+// The 9-th International Algebraic Conference in
+Ukraine
+Lviv, Ukraine:  Abstr.
+Lviv, July  8-13,  2013.  P.~132 }
+
+\resitem{ Morozov Denis, Conjugacy of piecewise-linear spheric-transitive
+automorphisms
+// International
+Conference on Algebra
+dedicated to 100th anniversary of S.M.Chernikov
+August 20-26, 2012
+Dragomanov National
+Pedagogical University,
+Kyiv, Ukraine:  Abstr.
+Kyiv, August 20-26,  2012.  P.~96 }
+
+\resitem{ Morozov Denis,    Differentiable finite-state izometries and izometric polynomials of the ring of
+integer 2-adic numbers
+// 8th Int.  Algebraic Conf.  in  Ukraine:  Abstr.
+Lugansk, July  5-12,  2011.  P.~116 }
+
+\resitem{ Morozov Denis, Hausdorff s dimension of limit s set of
+  compressive mappings semigroup //2nd Inter-University Scientific
+  Conference of Young Scientists in Mathematics and Physics:
+  Abstr. Kiev, April 28-29, 2011. }
+
+\resitem{ Morozov Denis, Finite state conjugation of linear functions
+  on the ring of n-adic integer numbers /D. Morozov, Yu. Bodnarchuk./
+  //Ukrainian Mathematical Congress, 7th Int.  Algebraic Conf.  in
+  Ukraine: Abstr.  Kiev, August 18-23, 2009.  P.~97. }
+
+\resitem{ Morozov Denis, Linear function which are conjugated in the
+  group $F\kern -.3em A\kern -.05em utT_2$ of finite state automatons
+  // 7th Int.  Algebraic Conf.  in Ukraine: Abstr.  Kharkiv, August
+  13-17, 2009.  P.~110. }
+
+
+\resitem{ Morozov Denis, Linear automatons which are finite-state
+  conjugated // Conf. "Groups generated by automata" in Switzerlend:
+  Abstr.  Ascona, February, 2008 }
+
+\resitem{ Morozov Denis,      Linear function which are conjugated
+in the group  $F\kern -.3em A\kern -.05em utT_2$  of  finite
+state automatons
+// 6th Int.  Algebraic Conf.  in  Ukraine:  Abstr.
+Kamyanets-Podilsky, July  1-7,  2007.  D. 140. }
+
+\resitem{ Morozov Denis,  The structure of centralizers of maximal
+pro-oder elements in the group  $AutT_2$  // 5th Int. Algebraic
+Conf. in Ukraine: Abstr. Odessa, July 20-27, 2005.  P.~37.  }
+\end{ressection}
+
+\begin{ressection}{Papers}
+\resitem{\mft  D. Morozov, Isometrics and compressing functions of the ring $Z_2$, 2014/  Морозов Д.Ў.  Ўзометрў∙ та стискаючи функцў∙ кўльця $Z_2$ // Вўсник
+Запорўзького нацўонального 
+унўверситету--2014,№1.---С. 90-97.}
+
+\resitem{\mft D. Morozov, Using of p-adic model for solving the finite-state conjugacy problem of the piecewise-linear spherical-transitive automorphism of the binary rooted tree, 2014/ Морозов Д.И. Применение p-адической модели в решении конечно-становой сопряженности кусочно-линейных сферически-транзитивных автоморфизмов корневого бинарного дерева.//Электронное моделирование. - 2014.  Том 36, №1 - C.~107-113. }
+
+\resitem{\mft D. Morozov, Finite-state conjugation of the spherically-transitive automorphisms of the binary rooted tree, 2013/ Морозов Д.Ў.  Скўнченно-станова спряженўсть сферично-транзитивних
+  автоморфўзмўв кореневого бўнарного дерева
+//Науковий часопис НПУ ўменў М.П.Драгоманова. Cерўя 1.
+Фўзико-математичнў науки // Ки∙в: НПУ ўменў М.П. Драгоманова. "---
+2013, № 12.}
+
+\resitem{\mft D. Morozov, Conjugacy of transitive-stable automorphisms in $F\kern -.3em A\kern -.05em utT_2$, 2012/ Морозов Д.I.  Спряженўсть транзитивно-стабўльних автоморфўзмўв в $F\kern -.3em A\kern -.05em utT_2$  //Науковi записки НаУКМА. Фiзико-математичнi
+  науки. - 2012. }
+
+\resitem{\mft D. Morozov,
+Isometrical polynomials over the ring of integer
+2-adic numbers, 2011/  Морозов Д.I.  Ўзометричнўсть полўномўв над кўльцем цўлих
+  2-адичних чисел //Науковi записки НаУКМА. Фiзико-математичнi
+  науки. - 2011.  Том 113. C.~13-15. }
+
+
+\resitem{\mft D.Morozov, Conjugation of automorfisms that are defined by linear functions in a group of finite state automorphisms of spherically homogeneous rooted tree, 2008/ Морозов  Д.I.  Спряженiсть  автоморфiзмiв,  що
+задаються лiнiйними функцiями в групi скiнченностанових
+автоморфiзмiв кореневого сферично-однорiдного дерева   //Вiсник
+Ки∙вського   ун-ту. Серiя: фiзико-математичнi науки. - 2008.-
+вип.№1 - C.~40-43.}
+
+
+\resitem{\mft D.Morozov, Finite-state conjugation of linear functions on the ring
+of integer 2-adic numbers, 2008/ Морозов Д.I.  Скiнченностанова спряженiсть лiнiйних
+  функцiй на кiльцi цiлих 2-адичних чисел /Боднарчук Ю.В., Морозов
+  Д.I.// Доповiдi НАН Укра∙ни .  Фiзико-математичнi науки. - 2008. №9
+  -C.~7-11. }
+
+\resitem{\mft  D.Morozov, Centralizers of spherically-homogeneous automorphisms of p-valent  homogeneous tree, 2007/ Морозов Д.I.  Централiзатори шарово-однорiдних
+  автоморфiзмiв однорiдного дерева валентностi p // Вiсник Ки∙вського
+  ун-ту.  Серiя: фiзико-математичнi науки.  - 2007.- вип.№4 - C.52-54.
+}
+
+\resitem{\mft D.Morozov, Extented 2-adic numbers as centralizers of  automorphisms of 3-valent tree, 2006/ Морозов Д.I.  Розширенi 2-адичнi числа як централiзатори
+  автоморфiзмiв регулярного кореневого дерева валентностi 3 /Боднарчук
+  Ю.В., Морозов Д.I.// Науковi записки НаУКМА. Фiзико-математичнi
+  науки. - 2006. - Т.51. - С.~4-7.  }
+
+
+\resitem{\mft D.Morozov, The structure of centralizers of maximal
+pro-oder elements in the group of automorphisms of the binary rooted tree, 2005/ Морозов Д.I.  Будова централiзаторiв елементiв
+  максимального про-порядку в групi автоморфiзмiв бiнарного дерева
+  /Боднарчук Ю.В., Морозов Д.I.//Науковi записки
+  НаУКМА. Фiзико-математичнi науки. - 2005.- Т.39. - С.~25-27. }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+%\newpage
+
+
+
+\end{ressection}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%\begin{ressection}{Achievements and Activities}
+
+
+% \resitem{Degree of Candidate of Sciences in Physics and
+% Mathematics in speciality 01.01.06 - Algebra and Number Theory. -
+% Kyiv National Taras Shevchenko University, 2008.} \resitem{Have
+% findings and published works in finite-state automatons theory.}
+
+%  \resitem{Research into algebra and theory of algorithms (2000--present).}
+
+%  \resitem{Leader and lecturer of the mathematical circle in NaUKMA (2001--2011).}
+
+%    \resitem{Member of the ukrainian folk dance group "Perlina" (2006--2011).}
+
+%  \resitem{Trainer of students in mix-fight techniques (2005--present).}
+
+%     \resitem{Champion of the open all-Ukrainian tournament of  Ukrainian martial art  "Boiovii Gopak", prize-winner of the mix-fights competitions (2003--2008).}
+
+%     \resitem{Teacher and trainer in the summer camp for the orphans in Carpathians (2003-2006).}
+
+
+%     \resitem{Prize-winner, Ukraine Republican Mathematical Competition (1996).}
+
+% \resitem{ Musical education, play piano (1985-1991).}
+
+
+%\end{ressection}
+% \newpage
+% \begin{tabular}{| c | c | c | c | c | }
+% %\hspace*{-20pt}\begin{tabular}{|c|c|c|c|c|c|}
+% \hline
+%   Number of theme  &  The topic subject   &  author  &  date  &  note  \\
+% \hline
+% \hline
+%    &{\bf p-adic numbers, p-adic analysis} & & & \\
+% \hline
+%  1. & Fundamentals of analysis in metric spaces. &  &  &   \\
+% \hline
+%  2. & Ultrametric. Basic definitions. &  &  &   \\
+% \hline
+%  3. &Metric properties of ultrametric spaces.  &  &  &   \\
+% \hline
+%  4. &The ring of p-adic numbers. &  &  &   \\
+% \hline
+%  5. &The basic of p-adic analysis. &  &  &   \\
+% \hline
+% & & & &  \\
+% \hline
+% \hline
+%    &{\bf Finite-State Automatons Theory } & & & \\
+% \hline
+%  1. & Finite state machines. & & &  \\
+% \hline
+%  2. & The use of p-adic analysis in the theory of group's automatons. & & &  \\
+% \hline
+% & & & &  \\
+% \hline
+% \hline
+%    &{\bf Godel Incopleteness Theorem } & & & \\
+% \hline
+%  1. & Finite state machines. & & &  \\
+% \hline
+%  2. & The use of p-adic analysis in the theory of group's automatons. & & &  \\
+% \hline
+% & & & &  \\
+% \hline
+% \hline
+%    &{\bf Additional Chapters of Discrete
+% Mathematics} & & & \\
+% \hline
+%  1. & Finite state machines. & & &  \\
+% \hline
+%  2. & The use of p-adic analysis in the theory of group's automatons. & & &  \\
+% \hline
+% & & & &  \\
+% \hline
+
+
+% \end{tabular}
+\vspace{.5cm}
+\end{document}

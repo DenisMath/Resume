@@ -1,0 +1,273 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.11 (19/6/14)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+\usepackage[T1]{fontenc}
+\moderncvstyle{casual} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+\usepackage[scale=0.75]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Denis} % Your first name
+\familyname{Morozov} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+\title{Curriculum Vitae}
+\address{Lenina str, 12}{Kyiv, Ukraine}
+\mobile{(063) 612 8335}
+%\phone{(000) 111 1112}
+%\fax{(000) 111 1113}
+\email{denis.morozov178@gmail.com}
+%\homepage{staff.org.edu/~jsmith}{staff.org.edu/$\sim$jsmith} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
+%\extrainfo{additional information}
+\photo[70pt][0.4pt]{pictures/picture} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+\quote{"Wir m\"{u}ssen wissen, wir werden wissen!" - David Hilbert}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\makecvtitle % Print the CV title
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\cventry{2011--present}{Degree expected: Doctor of mathematical sciences}{National University of "Kyiv-Mohyla Academy"}{Kyiv, Ukraine}{}{Institution of doctoral candidacy}  % Arguments not required can be left empty
+\cventry{2001--2003}{Degree: Candidate of Sciences in Physics and Mathematics (Equivalent of PhD)}{National University of "Kyiv-Mohyla Academy"}{Kyiv, Ukraine}{}{Post-graduate courses}
+\cventry{1996--2001}{Degree: Master}{Taras Shevchenko National University of Kyiv}{Ukraine}{}{Department of Algebra (Mechanics and Mathematics Faculty)}
+
+% \section{Masters Thesis}
+
+% \cvitem{Title}{\emph{Money Is The Root Of All Evil -- Or Is It?}}
+% \cvitem{Supervisors}{Professor James Smith \& Associate Professor Jane Smith}
+% \cvitem{Description}{This thesis explored the idea that money has been the cause of untold anguish and suffering in the world. I found that it has, in fact, not.}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Experience}
+
+\subsection{Vocational}
+\cventry{2001--present}{Assistant professor at present}{\textsc{National University "Kyiv-Mohyla Academy"}}{Computer Science Faculty, Department of Mathematics}{Kyiv}{ Lectures for students.
+\newline{}\newline{}
+ Detailed:
+ \begin{itemize}
+        \item Courses for Computer Science Faculty: Theory of
+        Algorithms, Mathematical Logics, Systems of Information
+        Encoding, Algebra and Number Theory, Linear Algebra and
+        Analytic Geometry, Discrete Mathematics, Additional Chapters
+        of Discrete Mathematics.
+        \item  Courses for Faculty of Economics: Probability Theory, Mathematical Analysis.
+        \item Students' supervisor of term papers.
+        \item  Workbooks and science papers writing.
+ \end{itemize}
+}
+
+\cventry{2000--2001}{Lecturer}{\textsc{Kyiv National University of Economy}}{Department of Mathematics}{Kyiv}{Lectures for students.
+\newline{}\newline{}
+ Detailed:
+ \begin{itemize}
+ \item Course of Linear Algebra for Faculty of Economics.
+ \end{itemize}
+}
+
+\cventry{January 1997}{Lecturer}{\textsc{Polytechnical Lyceum}}{Physics and mathematics branch}{Izmail, Ukraine}{Lectures for schoolchildren.
+\newline{}\newline{}
+ Detailed:
+ \begin{itemize}
+ \item Course of Complex Numbers.
+ \end{itemize}
+}
+
+\cventry{2014--2015}{Scientific consultant}{\textsc{Betlab}}{Math team}{Kyiv}{ Lead of math team. Analysis on the correctness of the bookmaking models.
+ \begin{itemize}
+ \item Worked to create R\&D department in Betlab and the organization of scientific research process.
+% –абота по созданию отдела R\&D и организаци€ процесса научных иследований 
+ \item Math lectures for team members.
+ \item Analysis of existing models and the development of alternative.
+%јнализ существующих моделей и создание альтернативных.
+ \end{itemize}}
+\cventry{2013--2014}{Researcher}{\textsc{Innovecs}}{Household project team}{Kyiv}{Built math model for recommendation system.
+\newline{}\newline{}
+ Detailed:
+ \begin{itemize}
+ \item Data analysis.
+ \item Built model with collaborative filtration methods. 
+  \end{itemize}
+}
+\cventry{2011--2013}{Lead of innovation team}{\textsc{Samsung Ukraine}}{ R\&D Center}{Kyiv}{  We conducted a research process accompanied by writing prototypes in C++ and F\#.
+%ћы проводили исследовательский процесс, сопровождающийс€ написанием прототипов на €зыках —++ и F\#.
+ My team has developed several research priorities and engaged in support of the product during the implementation of the solutions found.
+% ћо€ команда разрабатывала несколько приоритетных направлений исследований и занималась сопровождением продукта во врем€ имплементации найденных решений.
+\newline{}\newline{}
+ Detailed:
+ \begin{itemize}
+        \item Development of Discrete Fourier Transform algorithm based on finite algebraic fields.
+        \item Math support for development of syntaxical and lexical analyzers.
+        \item Project Lead of homomorphic cryptographical project.
+        \item Development of module for generation of complex graphics effects.
+        \item Development of the recognition module.
+        \item Research of dynamical systems generated by cellular automatons and objects of fractal geometry.
+        \item Math support for development process.
+        \item Math lectures for engineers of Samsung Ukraine R\&D Center.
+ \end{itemize}
+}
+
+
+
+% \cventry{2014--2015}{1\textsuperscript{st} Year Analyst}{\textsc{Lehman Brothers}}{Los Angeles}{}{Developed spreadsheets for risk analysis on exotic derivatives on a wide array of commodities (ags, oils, precious and base metals), managed blotter and secondary trades on structured notes, liaised with Middle Office, Sales and Structuring for bookkeeping.
+% \newline{}\newline{}
+% Detailed achievements:
+% \begin{itemize}
+% \item Learned how to make amazing coffee
+% \item Finally determined the reason for \textsc{PC LOAD LETTER}:
+% \begin{itemize}
+% \item Paper jam
+% \item Software issues:
+% \begin{itemize}
+% \item Word not sending the correct data to printer
+% \item Windows trying to print in letter format
+% \end{itemize}
+% \item Coffee spilled inside printer
+% \end{itemize}
+% \item Broke the office record for number of kitten pictures in cubicle
+% \end{itemize}}
+
+%------------------------------------------------
+
+
+
+%------------------------------------------------
+
+% \subsection{Miscellaneous}
+
+% \cventry{2008--2009}{Computer Repair Specialist}{Buy More}{Burbank}{}{Worked in the Nerd Herd and helped to solve computer problems by asking customers to turn their computers off and on again.}
+
+
+
+
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Computer skills}
+
+\cvitem{}{C++ - 6 years experience (3 years in industrial development)}
+\cvitem{}{Ocaml, F\# - use for writing prototypes}
+\cvitem{Knowledge of}{Cuda, Prolog, Assembler, Perl, SQL, Forth, \LaTeX,
+   plain\kern -.15em\hbox{\TeX}, PostScript, MetaPost, % {\mfont
+     % \char'150\char'151\char'152\char'153\char'154\char'155\char'156\char'152}
+ Emacs Lisp, VIM scripts}
+
+\section{Tools and Systems}
+
+\cvitem{}{Matlab, Maple,  Emacs, Vim, Flex, Bison, Git}
+
+%----------------------------------------------------------------------------------------
+%	LANGUAGES SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Languages}
+
+\cvitemwithcomment{Ukrainian}{Mothertongue}{Working language at University}
+\cvitemwithcomment{Russian}{Mothertongue}{}
+\cvitemwithcomment{English}{Intermediate}{}
+\cvitemwithcomment{Mathematics}{Mothertongue}{Fluent conversion of the real world objects to formal constructions}
+
+%----------------------------------------------------------------------------------------
+%	AWARDS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Awards}
+
+\cvitem{1996}{Prize-winner, Ukraine Republican Mathematical Competition}
+\cvitem{2003--2008}{ Prize-winner of the mix-fights competitions, Champion of the open all-Ukrainian tournament of  Ukrainian martial art  "Boiovii Gopak"}
+\cvitem{2015}{ Finisher of Kyiv half-marathon (21 km)}
+\cvitem{2015}{ Finisher of Race Nation (13 km with obstacles)}
+
+%----------------------------------------------------------------------------------------
+%	COMMUNICATION SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Achievements and Activities}
+
+\cvitem{2000--present}{Research into algebra and theory of algorithms}
+\cvitem{2001--present}{Leader and lecturer of the mathematical circle for young students in National University of "Kyiv-Mohyla Academy"}
+\cvitem{2005--present}{Trainer of students in mix-fight techniques}
+\cvitem{2006--2013}{Member of the ukrainian folk dance group "Perlina"}
+\cvitem{1985--1991}{Musical education, play piano}
+
+
+
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Interests}
+
+\renewcommand{\listitemsymbol}{-~} % Changes the symbol used for lists
+
+\cvlistdoubleitem{Piano}{Guitar}
+\cvlistdoubleitem{Mix fights}{Ukrainian Folk dances}
+\cvlistitem{Running}
+
+%----------------------------------------------------------------------------------------
+%	COVER LETTER
+%----------------------------------------------------------------------------------------
+
+% To remove the cover letter, comment out this entire block
+
+% \clearpage
+
+% \recipient{HR Department}{Corporation\\123 Pleasant Lane\\12345 City, State} % Letter recipient
+% \date{\today} % Letter date
+% \opening{Dear Sir or Madam,} % Opening greeting
+% \closing{Sincerely yours,} % Closing phrase
+% \enclosure[Attached]{curriculum vit\ae{}} % List of enclosed documents
+
+% \makelettertitle % Print letter title
+
+% \lipsum[1-3] % Dummy text
+
+% \makeletterclosing % Print letter signaturem
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
